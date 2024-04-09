@@ -6,7 +6,16 @@
     <description>Recent content on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Jan 2023 23:21:18 +0100</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 22:02:31 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Networks</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</link>
+      <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>temas</title>
       <link>https://ahmed-deftoner.github.io/blog/categoria/temas/</link>
