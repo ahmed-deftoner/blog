@@ -1,9 +1,9 @@
 +++ 
 draft = false
-date = {{ .Date }}
-title = ""
+date = 2024-04-09T22:40:49+05:00
+title = "Golang Concurrency Patterns"
 description = ""
-slug = ""
+slug = "golang-concurrency-patterns"
 authors = []
 tags = []
 categories = []

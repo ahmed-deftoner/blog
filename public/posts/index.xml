@@ -1,12 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on johndoe</title>
+    <title>Posts on Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/blog/posts/</link>
-    <description>Recent content in Posts on johndoe</description>
+    <description>Recent content in Posts on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Apr 2024 22:02:31 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 22:45:32 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pipes in Typescript</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/ts-pipes/</link>
+      <pubDate>Tue, 09 Apr 2024 22:45:32 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-pipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript Currying</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/ts-currying/</link>
+      <pubDate>Tue, 09 Apr 2024 22:44:37 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-currying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metaprogramming In Typescript</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/ts-metaprogramming/</link>
+      <pubDate>Tue, 09 Apr 2024 22:44:08 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-metaprogramming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DynamoDB Indexes</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/dynamodb-index/</link>
+      <pubDate>Tue, 09 Apr 2024 22:43:34 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/dynamodb-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Terraform Provider</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/terraform-provider/</link>
+      <pubDate>Tue, 09 Apr 2024 22:42:57 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/terraform-provider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Deployment Strategies</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/k8-deployment-strategies/</link>
+      <pubDate>Tue, 09 Apr 2024 22:42:03 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/k8-deployment-strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang Concurrency Patterns</title>
+      <link>https://ahmed-deftoner.github.io/blog/posts/golang-concurrency-patterns/</link>
+      <pubDate>Tue, 09 Apr 2024 22:40:49 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/blog/posts/golang-concurrency-patterns/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Docker Networks</title>
       <link>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</link>
