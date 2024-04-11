@@ -184,7 +184,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><img src="./images/avatar.jpeg" alt="Alternative text for accessibility"></p>
+<p><img src="/images/docker-networks/bridge.svg" alt="Bridge"></p>
 <p>In networking a bridge is a hardware or software device that is responsible for forwarding traffic between network segments. The main advantage of a bridge was to reduce collisions that occur in a network by segmenting it into smaller networks. The bridge network in Docker is similar and it is allow communication between containers within the same network. Bridge networks can also be separated into two types: Default bridge and User-defined. The default network is assigned to containers if no network is specified, this however is considered as a legacy approach. One key difference between them is that user-defined bridge networks allow DNS resolution, while for default networks you can only connect containers using their IP addresses, or by using the <code>--link</code> option, which is also legacy as per the docs. Moreover, default bridge networks aren&rsquo;t a good practice since there is no isolation if you have multiple containers and they can all access each other on the default network. Another caveat with default networks is that you&rsquo;ll have to restart containers if you want to connect them using <code>--link</code>, while the connecting and disconnecting to user-defined bridge networks is as trivial as running commands like <code>docker network connect my-network my-container</code> and <code>docker network disconnect my-network my-container</code></p>
 <h2 id="host">
   Host
@@ -193,6 +193,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p><img src="/images/docker-networks/host.svg" alt="Host"></p>
 <p>With the host network mode, your container does not get a separate IP address and no port forwarding is needed, it shares the same network settings as the Docker host. So if your Postgres database is running on port 5432 in a container, you will be able to connect at localhost on the same port and any other application connecting to it will access the it via it&rsquo;s port on localhost. On the surface this seems counter-intuitive since it defeats the purpose of containers, which is isolation, but this is useful in certain situations, for example, if a container needs to handle a large number of ports, or if performance is needed - since there would be no network address translation in this case. <strong>Note: this mode only works on Linux</strong>.</p>
 <h2 id="none">
   None
@@ -201,6 +202,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p><img src="/images/docker-networks/none.svg" alt="None"></p>
 <p>The None network mode completely isolates the container. This is useful if you want to run batch jobs, or any task that does require network calls - I am assuming that&rsquo;s a very small subset.</p>
 <h2 id="ipvlan">
   IPvlan
@@ -209,6 +211,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p><img src="/images/docker-networks/ipvlan.svg" alt="IPvlan"></p>
 <p>IPvlan is a new networking virtualization technique in Docker that provides significant performance gains. Since using bridge networks results in additional network hops when accessing the container, the IPvlan mode bypasses the Linux bridge and connects the container with the NIC directly using a network gateway. So for instance, if we have a network interface on our VM at 192.23.4.40/24, we can create an IPvlan network that assigns IP addresses to containers from this CIDR range directly. By default the gateway IP is the first assignable IP address from the CIDR block, otherwise we can specify the IP while creating the IPvlan network. We can create it using the command:</p>
 <pre tabindex="0"><code>docker network create -d ipvlan \
     --subnet=192.168.30.0/24 \
@@ -223,6 +226,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p><img src="/images/docker-networks/macvlan.svg" alt="Macvlan"></p>
 <p>In some situations, especially with legacy applications, you expect to be directly connected with a physical network. Macvlan allows you to assign separate MAC addresses to your container&rsquo;s virtual network interface. In the case of IPvlan the MAC addresses are the same.</p>
 <h2 id="overlay">
   Overlay
@@ -231,6 +235,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p><img src="/images/docker-networks/overlay.svg" alt="Overlay"></p>
 <p>When you deploy your applications, it is likely that your services reside in separate physical or virtual machines, in which case you&rsquo;ll need overlay network driver to connect your containers. Overlay network mode allows you to connect distributed applications from two different Docker daemons, ideally when the data is encrypted and you&rsquo;re using Docker Swarm to manage your distributed services. However, according to the docs, you could also connect individual containers, which are not part of a Docker Swarm deployment. However, I have never used this mode, if you plan to deploy distributed services, you might as well use Kubernetes since it is built to handle networking at scale.</p>
 
       </div>
