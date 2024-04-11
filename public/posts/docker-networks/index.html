@@ -184,7 +184,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><img src="/static/images/docker-networks/bridge.svg" alt="Alternative text for accessibility"></p>
+<p><img src="./images/avatar.jpeg" alt="Alternative text for accessibility"></p>
 <p>In networking a bridge is a hardware or software device that is responsible for forwarding traffic between network segments. The main advantage of a bridge was to reduce collisions that occur in a network by segmenting it into smaller networks. The bridge network in Docker is similar and it is allow communication between containers within the same network. Bridge networks can also be separated into two types: Default bridge and User-defined. The default network is assigned to containers if no network is specified, this however is considered as a legacy approach. One key difference between them is that user-defined bridge networks allow DNS resolution, while for default networks you can only connect containers using their IP addresses, or by using the <code>--link</code> option, which is also legacy as per the docs. Moreover, default bridge networks aren&rsquo;t a good practice since there is no isolation if you have multiple containers and they can all access each other on the default network. Another caveat with default networks is that you&rsquo;ll have to restart containers if you want to connect them using <code>--link</code>, while the connecting and disconnecting to user-defined bridge networks is as trivial as running commands like <code>docker network connect my-network my-container</code> and <code>docker network disconnect my-network my-container</code></p>
 <h2 id="host">
   Host
