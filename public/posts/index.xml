@@ -76,7 +76,7 @@
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
       
       <guid>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</guid>
-      <description></description>
+      <description>Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation.</description>
     </item>
     
   </channel>
