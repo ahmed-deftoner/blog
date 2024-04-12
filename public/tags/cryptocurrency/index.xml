@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptocurrency on Ahmed Nadeem</title>
+    <link>https://ahmed-deftoner.github.io/tags/cryptocurrency/</link>
+    <description>Recent content in cryptocurrency on Ahmed Nadeem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Apr 2024 21:33:28 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building A Future Trading Bot</title>
+      <link>https://ahmed-deftoner.github.io/posts/ftb-1/</link>
+      <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/posts/ftb-1/</guid>
+      <description>In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices 😁. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform.</description>
+    </item>
+    
+  </channel>
+</rss>

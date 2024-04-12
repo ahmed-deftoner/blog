@@ -2,9 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Ahmed Nadeem</title>
-    <link>https://ahmed-deftoner.github.io/blog/series/</link>
+    <link>https://ahmed-deftoner.github.io/series/</link>
     <description>Recent content in Series on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ahmed-deftoner.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Apr 2024 21:33:28 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Future Trading Bot</title>
+      <link>https://ahmed-deftoner.github.io/series/future-trading-bot/</link>
+      <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/series/future-trading-bot/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

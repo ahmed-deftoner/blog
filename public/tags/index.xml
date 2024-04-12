@@ -2,26 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ahmed Nadeem</title>
-    <link>https://ahmed-deftoner.github.io/blog/tags/</link>
+    <link>https://ahmed-deftoner.github.io/tags/</link>
     <description>Recent content in Tags on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Apr 2024 22:02:31 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 21:33:28 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cryptocurrency</title>
+      <link>https://ahmed-deftoner.github.io/tags/cryptocurrency/</link>
+      <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://ahmed-deftoner.github.io/tags/golang/</link>
+      <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
-      <link>https://ahmed-deftoner.github.io/blog/tags/docker/</link>
+      <link>https://ahmed-deftoner.github.io/tags/docker/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/tags/docker/</guid>
+      <guid>https://ahmed-deftoner.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>networks</title>
-      <link>https://ahmed-deftoner.github.io/blog/tags/networks/</link>
+      <link>https://ahmed-deftoner.github.io/tags/networks/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/tags/networks/</guid>
+      <guid>https://ahmed-deftoner.github.io/tags/networks/</guid>
       <description></description>
     </item>
     

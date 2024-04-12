@@ -2,107 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ahmed Nadeem</title>
-    <link>https://ahmed-deftoner.github.io/blog/</link>
+    <link>https://ahmed-deftoner.github.io/</link>
     <description>Recent content on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Apr 2024 22:45:32 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 21:33:28 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building A Future Trading Bot</title>
+      <link>https://ahmed-deftoner.github.io/posts/ftb-1/</link>
+      <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/posts/ftb-1/</guid>
+      <description>In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices 😁. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform.</description>
+    </item>
+    
     <item>
       <title>Pipes in Typescript</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/ts-pipes/</link>
+      <link>https://ahmed-deftoner.github.io/posts/ts-pipes/</link>
       <pubDate>Tue, 09 Apr 2024 22:45:32 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-pipes/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/ts-pipes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typescript Currying</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/ts-currying/</link>
+      <link>https://ahmed-deftoner.github.io/posts/ts-currying/</link>
       <pubDate>Tue, 09 Apr 2024 22:44:37 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-currying/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/ts-currying/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Metaprogramming In Typescript</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/ts-metaprogramming/</link>
+      <link>https://ahmed-deftoner.github.io/posts/ts-metaprogramming/</link>
       <pubDate>Tue, 09 Apr 2024 22:44:08 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/ts-metaprogramming/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/ts-metaprogramming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DynamoDB Indexes</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/dynamodb-index/</link>
+      <link>https://ahmed-deftoner.github.io/posts/dynamodb-index/</link>
       <pubDate>Tue, 09 Apr 2024 22:43:34 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/dynamodb-index/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/dynamodb-index/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building A Terraform Provider</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/terraform-provider/</link>
+      <link>https://ahmed-deftoner.github.io/posts/terraform-provider/</link>
       <pubDate>Tue, 09 Apr 2024 22:42:57 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/terraform-provider/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/terraform-provider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes Deployment Strategies</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/k8-deployment-strategies/</link>
+      <link>https://ahmed-deftoner.github.io/posts/k8-deployment-strategies/</link>
       <pubDate>Tue, 09 Apr 2024 22:42:03 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/k8-deployment-strategies/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/k8-deployment-strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang Concurrency Patterns</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/golang-concurrency-patterns/</link>
+      <link>https://ahmed-deftoner.github.io/posts/golang-concurrency-patterns/</link>
       <pubDate>Tue, 09 Apr 2024 22:40:49 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/golang-concurrency-patterns/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/golang-concurrency-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker Networks</title>
-      <link>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</link>
+      <link>https://ahmed-deftoner.github.io/posts/docker-networks/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</guid>
+      <guid>https://ahmed-deftoner.github.io/posts/docker-networks/</guid>
       <description>Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation.</description>
     </item>
     
     <item>
       <title>temas</title>
-      <link>https://ahmed-deftoner.github.io/blog/categoria/temas/</link>
+      <link>https://ahmed-deftoner.github.io/categoria/temas/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/categoria/temas/</guid>
+      <guid>https://ahmed-deftoner.github.io/categoria/temas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sintaxe</title>
-      <link>https://ahmed-deftoner.github.io/blog/categoria/sintaxe/</link>
+      <link>https://ahmed-deftoner.github.io/categoria/sintaxe/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/categoria/sintaxe/</guid>
+      <guid>https://ahmed-deftoner.github.io/categoria/sintaxe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://ahmed-deftoner.github.io/blog/about/</link>
+      <link>https://ahmed-deftoner.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/about/</guid>
+      <guid>https://ahmed-deftoner.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
@@ -110,10 +119,10 @@ Hugo makes use of a variety of open source projects including:
     
     <item>
       <title>Contact</title>
-      <link>https://ahmed-deftoner.github.io/blog/contact/</link>
+      <link>https://ahmed-deftoner.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ahmed-deftoner.github.io/blog/contact/</guid>
+      <guid>https://ahmed-deftoner.github.io/contact/</guid>
       <description>Follow me, @johndoe.</description>
     </item>
     

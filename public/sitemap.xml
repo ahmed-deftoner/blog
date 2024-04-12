@@ -2,65 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ahmed-deftoner.github.io/blog/</loc>
+    <loc>https://ahmed-deftoner.github.io/authors/ahmed-nadeem/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/authors/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/posts/ftb-1/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/tags/cryptocurrency/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/series/future-trading-bot/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/tags/golang/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/posts/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/series/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/tags/</loc>
+    <lastmod>2024-04-12T21:33:28+05:00</lastmod>
+  </url><url>
+    <loc>https://ahmed-deftoner.github.io/posts/ts-pipes/</loc>
     <lastmod>2024-04-09T22:45:32+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/ts-pipes/</loc>
-    <lastmod>2024-04-09T22:45:32+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/</loc>
-    <lastmod>2024-04-09T22:45:32+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/ts-currying/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/ts-currying/</loc>
     <lastmod>2024-04-09T22:44:37+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/ts-metaprogramming/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/ts-metaprogramming/</loc>
     <lastmod>2024-04-09T22:44:08+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/dynamodb-index/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/dynamodb-index/</loc>
     <lastmod>2024-04-09T22:43:34+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/terraform-provider/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/terraform-provider/</loc>
     <lastmod>2024-04-09T22:42:57+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/k8-deployment-strategies/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/k8-deployment-strategies/</loc>
     <lastmod>2024-04-09T22:42:03+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/golang-concurrency-patterns/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/golang-concurrency-patterns/</loc>
     <lastmod>2024-04-09T22:40:49+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/authors/ahmed-nadeem/</loc>
+    <loc>https://ahmed-deftoner.github.io/tags/docker/</loc>
     <lastmod>2024-04-09T22:02:31+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/authors/</loc>
+    <loc>https://ahmed-deftoner.github.io/posts/docker-networks/</loc>
     <lastmod>2024-04-09T22:02:31+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/tags/docker/</loc>
+    <loc>https://ahmed-deftoner.github.io/tags/networks/</loc>
     <lastmod>2024-04-09T22:02:31+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/posts/docker-networks/</loc>
-    <lastmod>2024-04-09T22:02:31+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/tags/networks/</loc>
-    <lastmod>2024-04-09T22:02:31+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/tags/</loc>
-    <lastmod>2024-04-09T22:02:31+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/categories/</loc>
+    <loc>https://ahmed-deftoner.github.io/categories/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/categoria/temas/</loc>
+    <loc>https://ahmed-deftoner.github.io/categoria/temas/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/categoria/sintaxe/</loc>
+    <loc>https://ahmed-deftoner.github.io/categoria/sintaxe/</loc>
     <lastmod>2023-01-04T23:21:06+01:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/about/</loc>
+    <loc>https://ahmed-deftoner.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/contact/</loc>
-  </url><url>
-    <loc>https://ahmed-deftoner.github.io/blog/series/</loc>
+    <loc>https://ahmed-deftoner.github.io/contact/</loc>
   </url>
 </urlset>
