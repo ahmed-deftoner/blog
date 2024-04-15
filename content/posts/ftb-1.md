@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2024-04-12T21:33:28+05:00
-title = "Building A Future Trading Bot"
+title = "Building A Future Trading Bot: Part 1"
 description = "building a future trading bot in Golang: Part 1"
 slug = "ftb-1"
 authors = ["Ahmed Nadeem"]

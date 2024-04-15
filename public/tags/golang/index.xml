@@ -6,9 +6,19 @@
     <description>Recent content in golang on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Apr 2024 21:33:28 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 12:22:51 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building A Future Trading Bot</title>
+      <title>Building A Future Trading Bot: Part 2</title>
+      <link>https://ahmed-deftoner.github.io/posts/ftb-2/</link>
+      <pubDate>Mon, 15 Apr 2024 12:22:51 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/posts/ftb-2/</guid>
+      <description>In the first part we setup up our code, connected to the DB, created a route to store the API key information in the database, encrypting the keys, and finally getting the keys from the Bitget dashboard. In this part we will connect with Bitget&amp;rsquo;s API, and start doing trading programmaticaly.
+I&amp;rsquo;ll be referencing endpoints from the Bitget API Docs. First we&amp;rsquo;ll need to connect with Bitget. Bitget and alot of cryptocurrency exchanges use HMAC which is cryyptography technique that generates a signature by hashing the message with a secret key.</description>
+    </item>
+    
+    <item>
+      <title>Building A Future Trading Bot: Part 1</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-1/</link>
       <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
       
