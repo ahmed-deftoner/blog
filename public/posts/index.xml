@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ahmed Nadeem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Apr 2024 12:22:51 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cronjobs using Helm Charts</title>
+      <link>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</link>
+      <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
+      
+      <guid>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</guid>
+      <description>Imagine you&amp;rsquo;re debugging your application, and you&amp;rsquo;ve defined your cronjobs within your code - you are relying on a library/package to schedule your jobs - and then it runs locally without you realizing and your co-workers are left wondering why certain actions got triggered so quickly. In some instances this might not be a huge issue, but the project I worked on had cron jobs to track payments and update their states, hence it wasn&amp;rsquo;t a good idea to have a library schedule our cron jobs.</description>
+    </item>
+    
     <item>
       <title>Building A Future Trading Bot: Part 2</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-2/</link>
@@ -24,69 +33,6 @@ I&amp;rsquo;ll be referencing endpoints from the Bitget API Docs. First we&amp;r
       
       <guid>https://ahmed-deftoner.github.io/posts/ftb-1/</guid>
       <description>In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices 😁. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform.</description>
-    </item>
-    
-    <item>
-      <title>Pipes in Typescript</title>
-      <link>https://ahmed-deftoner.github.io/posts/ts-pipes/</link>
-      <pubDate>Tue, 09 Apr 2024 22:45:32 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/ts-pipes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typescript Currying</title>
-      <link>https://ahmed-deftoner.github.io/posts/ts-currying/</link>
-      <pubDate>Tue, 09 Apr 2024 22:44:37 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/ts-currying/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metaprogramming In Typescript</title>
-      <link>https://ahmed-deftoner.github.io/posts/ts-metaprogramming/</link>
-      <pubDate>Tue, 09 Apr 2024 22:44:08 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/ts-metaprogramming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DynamoDB Indexes</title>
-      <link>https://ahmed-deftoner.github.io/posts/dynamodb-index/</link>
-      <pubDate>Tue, 09 Apr 2024 22:43:34 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/dynamodb-index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Building A Terraform Provider</title>
-      <link>https://ahmed-deftoner.github.io/posts/terraform-provider/</link>
-      <pubDate>Tue, 09 Apr 2024 22:42:57 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/terraform-provider/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes Deployment Strategies</title>
-      <link>https://ahmed-deftoner.github.io/posts/k8-deployment-strategies/</link>
-      <pubDate>Tue, 09 Apr 2024 22:42:03 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/k8-deployment-strategies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang Concurrency Patterns</title>
-      <link>https://ahmed-deftoner.github.io/posts/golang-concurrency-patterns/</link>
-      <pubDate>Tue, 09 Apr 2024 22:40:49 +0500</pubDate>
-      
-      <guid>https://ahmed-deftoner.github.io/posts/golang-concurrency-patterns/</guid>
-      <description></description>
     </item>
     
     <item>
