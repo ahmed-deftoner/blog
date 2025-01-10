@@ -4,45 +4,37 @@
     <title>Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/authors/ahmed-nadeem/</link>
     <description>Recent content on Ahmed Nadeem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/authors/ahmed-nadeem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate>
+    <atom:link href="https://ahmed-deftoner.github.io/authors/ahmed-nadeem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cronjobs using Helm Charts</title>
       <link>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</link>
       <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</guid>
-      <description>Imagine you&amp;rsquo;re debugging your application, and you&amp;rsquo;ve defined your cronjobs within your code - you are relying on a library/package to schedule your jobs - and then it runs locally without you realizing and your co-workers are left wondering why certain actions got triggered so quickly. In some instances this might not be a huge issue, but the project I worked on had cron jobs to track payments and update their states, hence it wasn&amp;rsquo;t a good idea to have a library schedule our cron jobs.</description>
+      <description>&lt;p&gt;Imagine you&amp;rsquo;re debugging your application, and you&amp;rsquo;ve defined your cronjobs within your code - you are relying on a library/package to schedule your jobs - and then it runs locally without you realizing and your co-workers are left wondering why certain actions got triggered so quickly. In some instances this might not be a huge issue, but the project I worked on had cron jobs to track payments and update their states, hence it wasn&amp;rsquo;t a good idea to have a library schedule our cron jobs. Moreover, most libraries also don&amp;rsquo;t provide concurrency control, which could lead to race conditions. Let&amp;rsquo;s see some code (I am using NestJS for scheduling cron jobs)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building A Future Trading Bot: Part 2</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-2/</link>
       <pubDate>Mon, 15 Apr 2024 12:22:51 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/ftb-2/</guid>
-      <description>In the first part we setup up our code, connected to the DB, created a route to store the API key information in the database, encrypting the keys, and finally getting the keys from the Bitget dashboard. In this part we will connect with Bitget&amp;rsquo;s API, and start doing trading programmaticaly.
-I&amp;rsquo;ll be referencing endpoints from the Bitget API Docs. First we&amp;rsquo;ll need to connect with Bitget. Bitget and alot of cryptocurrency exchanges use HMAC which is cryyptography technique that generates a signature by hashing the message with a secret key.</description>
+      <description>&lt;p&gt;In the first part we setup up our code, connected to the DB, created a route to store the API key information in the database, encrypting the keys, and finally getting the keys from the Bitget dashboard. In this part we will connect with Bitget&amp;rsquo;s API, and start doing trading programmaticaly.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be referencing endpoints from the &lt;a href=&#34;https://www.bitget.com/api-doc/contract/intro&#34;&gt;Bitget API Docs&lt;/a&gt;. First we&amp;rsquo;ll need to connect with Bitget. Bitget and alot of cryptocurrency exchanges use HMAC which is cryyptography technique that generates a signature by hashing the message with a secret key. It also expects a timestamp and api key in the header along with some other fields that we&amp;rsquo;ll see.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building A Future Trading Bot: Part 1</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-1/</link>
       <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/ftb-1/</guid>
-      <description>In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices 😁. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform.</description>
+      <description>&lt;p&gt;In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices &amp;#x1f601;. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform. Finally, I am also assuming that anyone who&amp;rsquo;s reading this article is not writing their first Golang program, although Golang is pretty easy, this won&amp;rsquo;t be a Golang tutorial. So let&amp;rsquo;s begin.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker Networks</title>
       <link>https://ahmed-deftoner.github.io/posts/docker-networks/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/docker-networks/</guid>
-      <description>Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation.</description>
+      <description>&lt;p&gt;Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation. This blog post will hopefully provide an overview of all these networking modes, so instead of jumping the ship and choosing Kubernetes directly to solve all your networking woes, you&amp;rsquo;ll find some solace with Docker as well &amp;#x1f609;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

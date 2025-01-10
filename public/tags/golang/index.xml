@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Ahmed Nadeem</title>
+    <title>Golang on Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/tags/golang/</link>
-    <description>Recent content in golang on Ahmed Nadeem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Golang on Ahmed Nadeem</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Apr 2024 12:22:51 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 12:22:51 +0500</lastBuildDate>
+    <atom:link href="https://ahmed-deftoner.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building A Future Trading Bot: Part 2</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-2/</link>
       <pubDate>Mon, 15 Apr 2024 12:22:51 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/ftb-2/</guid>
-      <description>In the first part we setup up our code, connected to the DB, created a route to store the API key information in the database, encrypting the keys, and finally getting the keys from the Bitget dashboard. In this part we will connect with Bitget&amp;rsquo;s API, and start doing trading programmaticaly.
-I&amp;rsquo;ll be referencing endpoints from the Bitget API Docs. First we&amp;rsquo;ll need to connect with Bitget. Bitget and alot of cryptocurrency exchanges use HMAC which is cryyptography technique that generates a signature by hashing the message with a secret key.</description>
+      <description>&lt;p&gt;In the first part we setup up our code, connected to the DB, created a route to store the API key information in the database, encrypting the keys, and finally getting the keys from the Bitget dashboard. In this part we will connect with Bitget&amp;rsquo;s API, and start doing trading programmaticaly.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be referencing endpoints from the &lt;a href=&#34;https://www.bitget.com/api-doc/contract/intro&#34;&gt;Bitget API Docs&lt;/a&gt;. First we&amp;rsquo;ll need to connect with Bitget. Bitget and alot of cryptocurrency exchanges use HMAC which is cryyptography technique that generates a signature by hashing the message with a secret key. It also expects a timestamp and api key in the header along with some other fields that we&amp;rsquo;ll see.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building A Future Trading Bot: Part 1</title>
       <link>https://ahmed-deftoner.github.io/posts/ftb-1/</link>
       <pubDate>Fri, 12 Apr 2024 21:33:28 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/ftb-1/</guid>
-      <description>In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices 😁. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform.</description>
+      <description>&lt;p&gt;In this series we&amp;rsquo;ll create a future trading bot in Golang, that will connect with a cryptocuurency exchange and start trading based on a strategy that we&amp;rsquo;ll discuss in future blog posts. Since this is the first entry of this series, there is alot of stuff that we need to setup before we go deep into the exciting stuff - hopefully making some profit from cryptocurrenices &amp;#x1f601;. Moreover, I have chosen cryptocurrencies for this bot since the tech behind it is pretty solid and alot of exchnages have really good documentation for developers, but this approach could also be used for any other trading platform. Finally, I am also assuming that anyone who&amp;rsquo;s reading this article is not writing their first Golang program, although Golang is pretty easy, this won&amp;rsquo;t be a Golang tutorial. So let&amp;rsquo;s begin.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

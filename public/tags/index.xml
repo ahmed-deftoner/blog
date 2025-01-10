@@ -4,71 +4,58 @@
     <title>Tags on Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/tags/</link>
     <description>Recent content in Tags on Ahmed Nadeem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate>
+    <atom:link href="https://ahmed-deftoner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cronjobs</title>
+      <title>Cronjobs</title>
       <link>https://ahmed-deftoner.github.io/tags/cronjobs/</link>
       <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/cronjobs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>devops</title>
+      <title>Devops</title>
       <link>https://ahmed-deftoner.github.io/tags/devops/</link>
       <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://ahmed-deftoner.github.io/tags/kubernetes/</link>
       <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cryptocurrency</title>
+      <title>Cryptocurrency</title>
       <link>https://ahmed-deftoner.github.io/tags/cryptocurrency/</link>
       <pubDate>Mon, 15 Apr 2024 12:22:51 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/cryptocurrency/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://ahmed-deftoner.github.io/tags/golang/</link>
       <pubDate>Mon, 15 Apr 2024 12:22:51 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://ahmed-deftoner.github.io/tags/docker/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networks</title>
+      <title>Networks</title>
       <link>https://ahmed-deftoner.github.io/tags/networks/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/tags/networks/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

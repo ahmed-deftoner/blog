@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kubernetes on Ahmed Nadeem</title>
+    <title>Kubernetes on Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/tags/kubernetes/</link>
-    <description>Recent content in kubernetes on Ahmed Nadeem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Kubernetes on Ahmed Nadeem</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 May 2024 12:53:37 +0500</lastBuildDate>
+    <atom:link href="https://ahmed-deftoner.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cronjobs using Helm Charts</title>
       <link>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</link>
       <pubDate>Thu, 02 May 2024 12:53:37 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/cronjobs-using-helm-charts/</guid>
-      <description>Imagine you&amp;rsquo;re debugging your application, and you&amp;rsquo;ve defined your cronjobs within your code - you are relying on a library/package to schedule your jobs - and then it runs locally without you realizing and your co-workers are left wondering why certain actions got triggered so quickly. In some instances this might not be a huge issue, but the project I worked on had cron jobs to track payments and update their states, hence it wasn&amp;rsquo;t a good idea to have a library schedule our cron jobs.</description>
+      <description>&lt;p&gt;Imagine you&amp;rsquo;re debugging your application, and you&amp;rsquo;ve defined your cronjobs within your code - you are relying on a library/package to schedule your jobs - and then it runs locally without you realizing and your co-workers are left wondering why certain actions got triggered so quickly. In some instances this might not be a huge issue, but the project I worked on had cron jobs to track payments and update their states, hence it wasn&amp;rsquo;t a good idea to have a library schedule our cron jobs. Moreover, most libraries also don&amp;rsquo;t provide concurrency control, which could lead to race conditions. Let&amp;rsquo;s see some code (I am using NestJS for scheduling cron jobs)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

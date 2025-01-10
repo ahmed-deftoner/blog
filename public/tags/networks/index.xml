@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>networks on Ahmed Nadeem</title>
+    <title>Networks on Ahmed Nadeem</title>
     <link>https://ahmed-deftoner.github.io/tags/networks/</link>
-    <description>Recent content in networks on Ahmed Nadeem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Networks on Ahmed Nadeem</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Apr 2024 22:02:31 +0500</lastBuildDate><atom:link href="https://ahmed-deftoner.github.io/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 22:02:31 +0500</lastBuildDate>
+    <atom:link href="https://ahmed-deftoner.github.io/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Networks</title>
       <link>https://ahmed-deftoner.github.io/posts/docker-networks/</link>
       <pubDate>Tue, 09 Apr 2024 22:02:31 +0500</pubDate>
-      
       <guid>https://ahmed-deftoner.github.io/posts/docker-networks/</guid>
-      <description>Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation.</description>
+      <description>&lt;p&gt;Recently, as part of a project, I deployed two backend services that communicated with each other, only to realize a noob mistake I made. In my haste I forgot the simple fact that Docker containers are completely isolated and what I was trying to do required some network configuration as well. This lead me to do some research on Docker networking modes to configure my containers accordingly, and although I was aware of some basic networking modes like bridge and host, I was certainly surprised by some newer network drivers that were available to use in the documentation. This blog post will hopefully provide an overview of all these networking modes, so instead of jumping the ship and choosing Kubernetes directly to solve all your networking woes, you&amp;rsquo;ll find some solace with Docker as well &amp;#x1f609;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
